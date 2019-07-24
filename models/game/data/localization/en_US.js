@@ -232,7 +232,7 @@ module.exports = {
 	// receives a police object
 	police_starting_plural: (data) => {
 		const phrases = [
-			`${data.officers} officers arrive behind you. They have ${data.total_hp} HP.`
+			`${data.officers} the officers arrive behind you. They have ${data.total_hp} HP.`
 		];
 		return phrases[common.getRandomInt(0, phrases.length - 1)];
 	},
